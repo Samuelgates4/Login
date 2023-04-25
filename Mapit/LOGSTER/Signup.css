@@ -2,12 +2,12 @@
 
 body
 {
- margin: 0px;
+ margin: 100px;
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
-background-color: #e57c45;
+background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
 }
 
 #logo
@@ -30,9 +30,8 @@ h2
   height: 280px;
   border-radius: 20px;
   background: #172d43;
-  box-shadow: 5px 5px 10px #e57c45,
-  -5px -5px 20px #e57c45;
-  margin-top: 10px;
+  
+    margin-top: 10px;
 }
 
 form 
